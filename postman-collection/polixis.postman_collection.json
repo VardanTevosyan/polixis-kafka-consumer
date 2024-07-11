@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "d61602e9-0494-412a-8f46-919f0a2e1450",
+		"name": "polixis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2052275",
+		"_collection_link": "https://red-desert-505201.postman.co/workspace/jfrog~cdda27f7-abda-461b-a062-248586414013/collection/2052275-d61602e9-0494-412a-8f46-919f0a2e1450?action=share&source=collection_link&creator=2052275"
+	},
+	"item": [
+		{
+			"name": "post-message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"firstName\": \"Vardan\",\n  \"lastName\": \"Tevosyan\",\n  \"email\": \"vardan.tevosyan@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/messages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"messages"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
